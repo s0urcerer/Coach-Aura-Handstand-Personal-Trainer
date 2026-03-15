@@ -1,0 +1,9 @@
+{
+  "name": "Aura: AI Handstand Coach",
+  "description": "A real-time, multimodal AI coach that uses vision and heart rate data to guide you to a 30-second handstand.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "bluetooth"
+  ]
+}
