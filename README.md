@@ -63,6 +63,12 @@ Aura is a real-time, multimodal AI coach designed to help users achieve a 30-sec
 3. **Express Server**: Handles Spotify OAuth flow and token management.
 4. **Spotify API**: Controls music playback based on AI instructions.
 
+## 🤖 Automated Deployment (Bonus Points)
+
+This project includes a `cloudbuild.yaml` file that automates the CI/CD pipeline on Google Cloud. 
+- **Link to Code**: [cloudbuild.yaml](./cloudbuild.yaml)
+- **Process**: When code is pushed, Google Cloud Build automatically builds the Docker container, pushes it to the Google Container Registry, and deploys the new version to Google Cloud Run.
+
 ## 💡 Learnings
 
 Working with the Gemini Live API highlighted the power of low-latency multimodal feedback. Synchronizing audio streams and vision frames in a web environment requires careful buffer management, but the result is a coaching experience that feels truly human and responsive.
